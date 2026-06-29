@@ -75,6 +75,19 @@ cd back-end
 pnpm install
 ```
 
+ກວດກາ .env ກໍລະນີທີ່ນັກສຶກສາໃສ່ລະຫັດໃຫ້ກັບຖານຂໍ້ມູນ
+
+```text
+.env
+DATABASE_URL="mysql://root:ໃສ່ລະຫັດຜ່ານບ່ອນນີ້@localhost:3306/todo_app"
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=root
+DB_PASSWORD=ໃສ່ລະຫັດຜ່ານບ່ອນນີ້
+DB_NAME=todo_app
+JWT_SECRET="some_secret_key"
+```
+
 ສ້າງ Database Tables:
 
 ```bash
